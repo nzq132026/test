@@ -208,7 +208,7 @@ a:hover{
 }
 
 /*Mobile Layout*/
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 575px) {
 	.left-image{
 		display: none;
 	}
