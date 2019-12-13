@@ -41,9 +41,11 @@ a:hover{
 .container{
 	margin-top: 60px;
 	margin-bottom: 60px;
+
 }
 .section-heading{
 	margin-bottom: 20px;
+	height: 20px;
 	font-family: "Roboto Slab";	
 	font-size: 18px;	
 	font-weight: bold;	
@@ -70,6 +72,21 @@ a:hover{
 	height: 50px;
 	box-sizing: border-box;		
 	border: 1px solid #FF6F0F;
+	transition: 0.3s linear;
+}
+
+.button:hover{
+	border: 1px solid #27198C;
+	background-color: #27198C; 
+
+}
+
+.button:hover .button-text{
+	color:#fff;
+}
+
+.button:hover .icon{
+	background-color: #27198C;
 }
 
 .button-text{
@@ -92,18 +109,26 @@ a:hover{
 	background-color: #FF6F0F;
 	color:#fff;
 	font-size: 26px;
+	transition: 0.3s linear;
 }
+
 .plus{
 	width:16px;
 	height: 16px;
+}
+
+.mobile-carousel{
+	display: none;
 }
 
 .left-image{
 	margin-bottom: 40px;
 }
 
-.icon-group{
+.icon-groups{
+	margin-top: 60px;
 	margin-bottom: 40px;
+	margin-bottom: 13px;
 }
 
 .icon-number{
@@ -117,7 +142,6 @@ a:hover{
 .cross{
 	height: 70px;
 	width: 70px;
-	margin-bottom: 13px;
 }
 
 .icon-text{
@@ -133,3 +157,48 @@ a:hover{
 	margin-bottom: 20px;
 }
 
+/*Responsive Layout*/
+
+@media screen and (max-width: 992px) {
+
+	.section-heading{
+		font-size: 16px;
+		height: 26px;
+		margin-bottom: 10px;
+	}
+
+	.highlight-paragraph{
+		font-size: 24px;
+		line-height: 38px;
+		margin-bottom: 20px;
+	}
+
+	.sed-ut-perspiciatis{
+		font-size: 14px;
+		line-height: 28px;
+	}
+
+	.icon-number{
+		display: none;
+	}
+
+	.icon-groups{
+		margin-top: 40px;
+	}
+
+	.icon-group{
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+	
+	.cross{
+		width: 38.95px;
+		height: 38.95px;
+	}
+
+	.icon-text{
+		margin-left: 20px;
+	}
+
+}
