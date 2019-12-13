@@ -6,6 +6,10 @@ a{
 	text-decoration: none;
 }
 
+a:hover{
+	text-decoration: none;
+}
+
 .primary-blue{
 	color: #27198C;
 }
@@ -69,6 +73,7 @@ a{
 }
 
 .button-text{
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	width:150px;
@@ -80,14 +85,24 @@ a{
 }
 
 .icon{
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 50px;
 	background-color: #FF6F0F;
 	color:#fff;
+	font-size: 26px;
+}
+.plus{
+	width:16px;
+	height: 16px;
 }
 
 .left-image{
+	margin-bottom: 40px;
+}
+
+.icon-group{
 	margin-bottom: 40px;
 }
 
@@ -97,7 +112,12 @@ a{
 	font-weight: 900;	
 	line-height: 46px;
 	text-align: left !important;
+}
 
+.cross{
+	height: 70px;
+	width: 70px;
+	margin-bottom: 13px;
 }
 
 .icon-text{
@@ -107,6 +127,9 @@ a{
 	font-weight: bold;	
 	letter-spacing: 1.4px;	
 	line-height: 20px;	
+}
 
+.right-image{
+	margin-bottom: 20px;
 }
 
