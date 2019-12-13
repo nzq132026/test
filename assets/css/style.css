@@ -2,6 +2,10 @@ html body{
 	font-family: 'Muli','Roboto Slab';
 }
 
+a{
+	text-decoration: none;
+}
+
 .primary-blue{
 	color: #27198C;
 }
@@ -26,11 +30,83 @@ html body{
 	color: #191919;
 }
 
-.section-heading{
+.w-100{
+	width:100%;
+}
 
+.container{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.section-heading{
+	margin-bottom: 20px;
+	font-family: "Roboto Slab";	
+	font-size: 18px;	
+	font-weight: bold;	
+	letter-spacing: 1.4px;	
+	line-height: 28px;
+}
+
+.highlight-paragraph{
+	margin-bottom: 30px;
+	font-size: 30px;	
+	font-weight: 900;	
+	line-height: 44px;
+}
+
+.sed-ut-perspiciatis{
+	font-size: 16px;	
+	font-weight: 600;	
+	line-height: 30px;
 }
 
 .button{
+	margin-bottom: 40px;
+	width:200px;
+	height: 50px;
+	box-sizing: border-box;		
+	border: 1px solid #FF6F0F;
+}
+
+.button-text{
+	justify-content: center;
+	align-items: center;
+	width:150px;
+	font-size: 12px;	
+	font-weight: 900;	
+	letter-spacing: 1.4px;	
+	line-height: 15px;
+	text-decoration:none;
+}
+
+.icon{
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	background-color: #FF6F0F;
+	color:#fff;
+}
+
+.left-image{
+	margin-bottom: 40px;
+}
+
+.icon-number{
+	font-family: Muli;	
+	font-size: 36px;	
+	font-weight: 900;	
+	line-height: 46px;
+	text-align: left !important;
+
+}
+
+.icon-text{
+	text-transform: uppercase;
+	font-family: "Roboto Slab";	
+	font-size: 12px;	
+	font-weight: bold;	
+	letter-spacing: 1.4px;	
+	line-height: 20px;	
 
 }
 
