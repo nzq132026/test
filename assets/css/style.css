@@ -1,6 +1,8 @@
 html body{
-	font-family: 'Muli','Roboto Slab';
+	font-family: 'Muli', 'Roboto Slab';
+
 }
+
 
 a{
 	text-decoration: none;
@@ -62,7 +64,7 @@ a:hover{
 
 .sed-ut-perspiciatis{
 	font-size: 16px;	
-	font-weight: 600;	
+	font-weight: bold;	
 	line-height: 30px;
 }
 
@@ -142,6 +144,7 @@ a:hover{
 .cross{
 	height: 70px;
 	width: 70px;
+	margin-bottom: 13px;
 }
 
 .icon-text{
@@ -157,7 +160,7 @@ a:hover{
 	margin-bottom: 20px;
 }
 
-/*Responsive Layout*/
+/*Tablet Layout*/
 
 @media screen and (max-width: 992px) {
 
@@ -195,10 +198,42 @@ a:hover{
 	.cross{
 		width: 38.95px;
 		height: 38.95px;
+		margin-bottom: 0px;
 	}
 
 	.icon-text{
 		margin-left: 20px;
 	}
 
+}
+
+/*Mobile Layout*/
+@media screen and (max-width: 375px) {
+	.left-image{
+		display: none;
+	}
+
+	.right-image{
+		display: none;
+	}
+
+	.second-button{
+		display: none;
+	}
+	
+	.mobile-carousel{
+		display: block;
+		margin-bottom: 40px;
+	}
+
+	.carousel-indicators li{
+		background-color: #27198C;
+		width:10px;
+		height: 2px;
+		opacity: 1;
+	}
+
+	.carousel-indicators .active{
+		background-color: #FF6F0F;
+	}
 }
